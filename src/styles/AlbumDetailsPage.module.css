@@ -1,0 +1,36 @@
+.albumDetailsContainer {
+  padding: 20px;
+}
+
+.breadcrumb {
+  padding: 4px 24px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.albumTitle {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #29313A;
+}
+
+.albumDetails {
+  background: #fff !important;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.detailItem {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+  color: #29313A;
+}
+
+.detailItem span {
+  font-weight: 600;
+  font-size: 12px;
+}

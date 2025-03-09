@@ -1,0 +1,33 @@
+/* ------------------------------------------ common setup for css design -->START ------------------------------------ */
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@400;600&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: "Commissioner", sans-serif;
+  background: #F5F8FA;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+}
+/* ------------------------------------------ common setup for css design -->END ------------------------------------ */
+
+
+.pageTitle {
+  padding: 20px 24px;
+  background: #fff;
+  font-size: 24px;
+}

@@ -1,0 +1,80 @@
+.viewDetails {
+  background: transparent;
+  color: #025992;
+  box-shadow: none;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.viewDetails:hover {
+  background: #d6d9dd !important;
+  color: #025992 !important;
+  font-size: 12px;
+}
+
+.overviewContainer {
+  margin: 24px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  padding: 16px 14px;
+  margin-bottom: 16px;
+  gap: 16px;
+}
+
+.searchInput {
+  width: 310px;
+}
+
+:global .ant-input-search-button {
+  border-left: none !important;
+}
+
+.filterButton {
+  background: #E1E4E9 !important;
+  color: #29313A !important;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 12px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+.filterButton_Selected{
+  background: #ebf5ff !important;
+  color: #084782 !important;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 12px;
+  height: 32px;
+  border: 1px solid #084782 !important;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.filterButton:hover {
+  background: #cbd5e1 !important;
+}
+
+:global .ant-select .ant-select-selector {
+  border-radius: 10px;
+  background: #E1E4E9 !important;
+  color: #29313A !important;
+  font-family: "Commissioner", sans-serif;
+}
+
+:global .ant-table-thead>tr>th {
+  background: #fff !important;
+  border-bottom: 1px solid #C2CAD3 !important;
+}
+
+:global .ant-table-tbody>tr>td {
+  font-size: 12px !important;
+}

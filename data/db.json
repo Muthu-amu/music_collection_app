@@ -1,0 +1,204 @@
+{
+    "collections": [
+      {
+        "id": "1",
+        "name": "EPIC: The Troy Saga",
+        "artist": "Jorge Rivera-Herrans",
+        "type": "EP",
+        "songCount": 5,
+        "songs": [
+          { "title": "The Call to Arms", "duration": "00:03:00", "size": "12 MB", "performers": ["Jorge Rivera-Herrans"] },
+          { "title": "Warrior’s Spirit", "duration": "00:03:30", "size": "12.5 MB", "performers": ["Jorge Rivera-Herrans"] },
+          { "title": "The Siege Begins", "duration": "00:03:10", "size": "11.5 MB", "performers": ["Jorge Rivera-Herrans"] },
+          { "title": "Fallen Heroes", "duration": "00:03:20", "size": "11.8 MB", "performers": ["Jorge Rivera-Herrans"] },
+          { "title": "Victory and Sorrow", "duration": "00:03:40", "size": "12.8 MB", "performers": ["Jorge Rivera-Herrans"] }
+        ],
+        "totalSize": "60.6 MB",
+        "totalDuration": "00:16:40",
+        "releasedOn": "2024-09-03T02:35:00Z"
+      },
+      {
+        "id": "2",
+        "name": "Mythic Echoes",
+        "artist": "Elena Magnus",
+        "type": "EP",
+        "songCount": 1,
+        "songs": [
+          { "title": "Ancient Voices", "duration": "00:03:10", "size": "13 MB", "performers": ["Elena Magnus"] }
+        ],
+        "totalSize": "13 MB",
+        "totalDuration": "00:03:10",
+        "releasedOn": "2023-08-12T10:15:00Z"
+      },
+      {
+        "id": "3",
+        "name": "Legends of the Past",
+        "artist": "Marcus Aether",
+        "type": "EP",
+        "songCount": 1,
+        "songs": [
+          { "title": "Forgotten Glory", "duration": "00:03:15", "size": "14 MB", "performers": ["Marcus Aether"] }
+        ],
+        "totalSize": "14 MB",
+        "totalDuration": "00:03:15",
+        "releasedOn": "2022-11-25T08:45:00Z"
+      },
+      {
+        "id": "4",
+        "name": "Celestial Visions",
+        "artist": "Aurora Soundwave",
+        "type": "EP",
+        "songCount": 1,
+        "songs": [
+          { "title": "Stardust Serenade", "duration": "00:03:20", "size": "15 MB", "performers": ["Aurora Soundwave"] }
+        ],
+        "totalSize": "15 MB",
+        "totalDuration": "00:03:20",
+        "releasedOn": "2021-06-30T16:30:00Z"
+      },
+      {
+        "id": "5",
+        "name": "Echo Chamber",
+        "artist": "The Resonators",
+        "type": "EP",
+        "songCount": 1,
+        "songs": [
+          { "title": "Reflections", "duration": "00:03:30", "size": "16 MB", "performers": ["The Resonators"] }
+        ],
+        "totalSize": "16 MB",
+        "totalDuration": "00:03:30",
+        "releasedOn": "2020-03-15T12:00:00Z"
+      },
+      {
+        "id": "6",
+        "name": "Symphony of Dreams",
+        "artist": "Luna Harmonia",
+        "type": "Album",
+        "songCount": 1,
+        "songs": [
+          { "title": "Dreaming Awake", "duration": "00:04:00", "size": "15 MB", "performers": ["Luna Harmonia"] }
+        ],
+        "totalSize": "15 MB",
+        "totalDuration": "00:04:00",
+        "releasedOn": "2023-05-20T15:00:00Z"
+      },
+      {
+        "id": "7",
+        "name": "Ethereal Journeys",
+        "artist": "Solaris Nova",
+        "type": "Album",
+        "songCount": 1,
+        "songs": [
+          { "title": "Beyond Horizons", "duration": "00:04:10", "size": "17 MB", "performers": ["Solaris Nova"] }
+        ],
+        "totalSize": "17 MB",
+        "totalDuration": "00:04:10",
+        "releasedOn": "2022-10-11T09:20:00Z"
+      },
+      {
+        "id": "8",
+        "name": "Timeless Melodies",
+        "artist": "Aria Celeste",
+        "type": "Album",
+        "songCount": 1,
+        "songs": [
+          { "title": "Everlasting Echo", "duration": "00:04:20", "size": "18 MB", "performers": ["Aria Celeste"] }
+        ],
+        "totalSize": "18 MB",
+        "totalDuration": "00:04:20",
+        "releasedOn": "2021-07-22T14:10:00Z"
+      },
+      {
+        "id": "9",
+        "name": "Odyssey of Sound",
+        "artist": "Harmonic Voyager",
+        "type": "Album",
+        "songCount": 1,
+        "songs": [
+          { "title": "Sonic Expedition", "duration": "00:04:30", "size": "19 MB", "performers": ["Harmonic Voyager"] }
+        ],
+        "totalSize": "19 MB",
+        "totalDuration": "00:04:30",
+        "releasedOn": "2020-04-05T11:45:00Z"
+      },
+      {
+        "id": "10",
+        "name": "Resonance",
+        "artist": "Echo Synth",
+        "type": "Album",
+        "songCount": 1,
+        "songs": [
+          { "title": "Vibrations", "duration": "00:04:40", "size": "20 MB", "performers": ["Echo Synth"] }
+        ],
+        "totalSize": "20 MB",
+        "totalDuration": "00:04:40",
+        "releasedOn": "2019-09-18T16:30:00Z"
+      },
+      {
+        "id": "11",
+        "name": "Silent Whispers",
+        "artist": "Eve Nocturne",
+        "type": "Single",
+        "songCount": 1,
+        "songs": [
+          { "title": "Silent Whispers", "duration": "00:04:15", "size": "12 MB", "performers": ["Eve Nocturne"] }
+        ],
+        "totalSize": "12 MB",
+        "totalDuration": "00:04:15",
+        "releasedOn": "2023-10-05T10:00:00Z"
+      },
+      {
+        "id": "12",
+        "name": "Shadow Dance",
+        "artist": "Midnight Echo",
+        "type": "Single",
+        "songCount": 1,
+        "songs": [
+          { "title": "Shadow Dance", "duration": "00:04:10", "size": "13 MB", "performers": ["Midnight Echo"] }
+        ],
+        "totalSize": "13 MB",
+        "totalDuration": "00:04:10",
+        "releasedOn": "2022-12-14T18:25:00Z"
+      },
+      {
+        "id": "13",
+        "name": "Neon Nights",
+        "artist": "Retro Pulse",
+        "type": "Single",
+        "songCount": 1,
+        "songs": [
+          { "title": "Neon Nights", "duration": "00:04:20", "size": "14 MB", "performers": ["Retro Pulse"] }
+        ],
+        "totalSize": "14 MB",
+        "totalDuration": "00:04:20",
+        "releasedOn": "2021-08-30T20:00:00Z"
+      },
+      {
+        "id": "14",
+        "name": "Echoes in Time",
+        "artist": "Harmonic Drift",
+        "type": "Single",
+        "songCount": 1,
+        "songs": [
+          { "title": "Echoes in Time", "duration": "00:04:30", "size": "15 MB", "performers": ["Harmonic Drift"] }
+        ],
+        "totalSize": "15 MB",
+        "totalDuration": "00:04:30",
+        "releasedOn": "2020-06-15T17:10:00Z"
+      },
+      {
+        "id": "15",
+        "name": "Wanderer’s Lament",
+        "artist": "Solstice Nomad",
+        "type": "Single",
+        "songCount": 1,
+        "songs": [
+          { "title": "Wanderer’s Lament", "duration": "00:04:40", "size": "16 MB", "performers": ["Solstice Nomad"] }
+        ],
+        "totalSize": "16 MB",
+        "totalDuration": "00:04:40",
+        "releasedOn": "2019-04-10T12:40:00Z"
+      }
+    ]
+  }
+  
