@@ -1,14 +1,18 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Overview from "../pages/Overview";
-import AlbumDetailsPage from "../pages/AlbumDetailsPage";
+import { lazy, Suspense } from "react";
+
+const Overview = lazy(() => import("../pages/Overview"));
+const AlbumDetails = lazy(() => import("../pages/AlbumDetails"));
 
 const AppRoutes = () => {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Overview />} />
-        <Route path="/album/:id" element={<AlbumDetailsPage />} />
-      </Routes>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Routes>
+          <Route path="/" element={<Overview />} />
+          <Route path="/album/:id" element={<AlbumDetails />} />
+        </Routes>
+      </Suspense>
     </Router>
   );
 };

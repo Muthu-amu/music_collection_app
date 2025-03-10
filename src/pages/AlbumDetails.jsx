@@ -1,13 +1,13 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
-import { Breadcrumb, Col, Row, Table } from "antd";
+import { Breadcrumb, Col, Row, Spin, Table } from "antd";
 import { format } from "date-fns";
 import { useQuery } from "@tanstack/react-query";
 import Api from "../services/Api";
-import styles from "../styles/AlbumDetailsPage.module.css";
+import styles from "../styles/AlbumDetails.module.css";
 import HeaderCard from "../components/HeaderCard";
 
-const AlbumDetailsPage = () => {
+const AlbumDetails = () => {
   const { id } = useParams();
 
 
@@ -24,14 +24,13 @@ const AlbumDetailsPage = () => {
     },
   });
 
+  if (isLoading) return <Spin size="large" style={{ display: "block", margin: "20px auto" }} />;
 
-  if (isLoading) return <p>Loading...</p>;
   if (isError) return <p>Error fetching album details: {error.message}</p>;
 
 
   const [hours, minutes, seconds] = album.totalDuration.split(":").map(Number);
   const formattedDuration = `${hours > 0 ? `${hours} hours ` : ""}${minutes} minutes ${seconds} seconds`;
-
 
   const columns = [
     { title: "Song", dataIndex: "title", key: "title" },
@@ -78,8 +77,8 @@ const AlbumDetailsPage = () => {
 
         <Table
           columns={columns}
-          dataSource={album.songs.map((song, index) => ({ ...song, key: index }))}
-          rowKey="song"
+          dataSource={album.songs.map((song, index) => ({ ...song, key: `${song.title}-${index}` }))}
+          rowKey="key"
           pagination={false}
         />
       </div>
@@ -87,4 +86,4 @@ const AlbumDetailsPage = () => {
   );
 };
 
-export default AlbumDetailsPage;
+export default AlbumDetails;
